@@ -1,0 +1,40 @@
+/* google font  */
+/* second way to add font in google */
+  /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+   */
+   /* first way to add google font  */
+  *{
+
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* header section  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 140px;
+}
+/* nav section  */
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    color: #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
