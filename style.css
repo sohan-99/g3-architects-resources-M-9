@@ -188,6 +188,9 @@ font-size: 1.25rem;
     margin-top: 100px;
     gap: 100px;
 }
+.features-img{
+    width: 85%;
+}
 .feature-content .card{
     padding: 30px;
     margin-bottom: 20px;
@@ -205,9 +208,17 @@ font-size: 1.25rem;
     color: #FFF;
     width: 342px;
     padding: 40px;
+    text-align: center;
+    margin-left: -30px;
+    position: relative;
+    bottom: 100px;
 }
-.ten-years-badge h3{
+.ten-years-badge h2{
     font-size: 4rem;
+    margin: 0 ;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
 }
 
 
@@ -258,8 +269,16 @@ font-weight: 400;
 
     nav,
     .teams-contaner,
+    .features,
     .card-2, .sponsors-img-container {
         flex-direction: column;
+    }
+    .features-img img{
+        width: 20%;
+        margin-left: 0;
+    }
+    .ten-years-badge{
+        position: static;
     }
     .teams-img-contaner {
         grid-template-columns: 1fr;
