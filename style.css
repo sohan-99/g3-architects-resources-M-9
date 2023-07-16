@@ -52,6 +52,7 @@ nav li a{
     color: #727272;
 }
 .banner-img{
+    margin: 20px;
     width: 100%;
 }
 .btn-primary{
@@ -109,4 +110,14 @@ cursor: pointer;
     .facts-card-container {
         gap: 20px;
     }
+}
+/* tablet or medium device */
+@media screen  and ((min-width: 576px) and (max-width:960px)){
+    /* header{
+        padding: 50px;
+    } */
+    nav{
+        flex-direction: column;
+    }
+    
 }
